@@ -1,5 +1,4 @@
-n = int(input())
-m = n * 3
+n, m = map(int, input().split())
 
 for i in range(n//2):
     pattern = '.|.'*(i*2+1)
